@@ -12,7 +12,7 @@ Example Raspberry Pi rack setup with an SH1106 OLED display monitoring ArchiStea
 
 ---
 
-# Raspberry Pi ASF OLED Monitor
+# Raspberry Pi OLED Monitor for ArchiSteamFarm
 
 A **Raspberry Pi OLED monitor** for displaying **ArchiSteamFarm (ASF)** server status and system information.
 
@@ -124,10 +124,10 @@ This project was tested with the following OLED module:
 
 **1.3" SH1106 OLED Display (128x64 I2C)**
 
-AliExpress:  
-https://ko.aliexpress.com/item/4001145494936.html
+Purchase link:
+https://aliexpress.com/item/4001145494936.html
 
-(Option used - Color: 4pinIIC-White)
+(Option used: 4pinIIC-White)
 
 ---
 
