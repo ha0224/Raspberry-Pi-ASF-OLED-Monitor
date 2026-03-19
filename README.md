@@ -93,17 +93,17 @@ Server-3 : Optional Raspberry Pi node
 # Network Architecture
 
 ```
-┌────────┐
-│      Server-0      │
-│   Raspberry Pi    │
-│  OLED Monitor  │
-└─┬─────┬┘
-       │ SSH / IPC
-       ▼
-┌────────┐
-│       Server-1      │
-│     ASF Server    │
-└────────┘
+┌───────────────┐
+│   Server-0    │
+│ Raspberry Pi  │
+│ OLED Monitor  │
+└───────┬───────┘
+        │ SSH / IPC
+        ▼
+┌───────────────┐
+│   Server-1    │
+│ ASF Server    │
+└───────────────┘
 ```
 
 The OLED monitor runs on **Server-0** and retrieves ASF status from **Server-1** using **SSH** and **ASF IPC API**.
